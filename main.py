@@ -34,5 +34,7 @@ async def go(ctx):
             await ctx.send("Pokémonun görüntüsü yüklenemedi!")
     else:
         await ctx.send("Zaten kendi Pokémonunuzu oluşturdunuz!")  # Bir Pokémon'un daha önce yaratılıp yaratılmadığını gösteren bir mesaj
+
+
 # Botun çalıştırılması
 bot.run(token)
